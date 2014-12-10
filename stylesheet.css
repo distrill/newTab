@@ -1,19 +1,19 @@
 * {
-    /*border: 2px dotted black;*/
     font-family: Arial;
     text-align: center;
     font-size: 22px;
-    /*background-color: #ffffff;*/
+    /*background-color: #ffffff;*/                                      /*                 for debug*/
+    /*border: 2px dotted black;*/
 }
 
 body {
-    /*                                     muh background gallery                                    */
-    /*background-image: url("http://i.imgur.com/vfdYMho.png");*/        /*                 grayFabric*/
+    /*                                     muh backgrounds gallery                                   */
+    /*background-image: url("http://i.imgur.com/vfdYMho.png");          /*                 grayFabric*/
     /*background-image: url("http://i.imgur.com/cVblbag.png");          /*                escherEsque*/
-    /*background-image: url("http://i.imgur.com/zzgwf72.png");*/        /*               darkerFabric*/
-    /*background-image: url("http://i.imgur.com/IaHqxG5.png");*/        /*            trianglePattern*/
-    /*background-image: url("http://i.imgur.com/nObEHPX.png");*/        /*                   darkWood*/
-    /*background-image: url("http://i.imgur.com/XSR14fG.png");*/        /*              lighterFabric*/
+    /*background-image: url("http://i.imgur.com/zzgwf72.png");          /*               darkerFabric*/
+    /*background-image: url("http://i.imgur.com/IaHqxG5.png");          /*            trianglePattern*/
+    /*background-image: url("http://i.imgur.com/nObEHPX.png");          /*                   darkWood*/
+    /*background-image: url("http://i.imgur.com/XSR14fG.png");          /*              lighterFabric*/
     background-image: url("http://i.imgur.com/mXIHXSj.png");            /*           imaginationThing*/
     background-repeat: repeat;
 }

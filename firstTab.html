@@ -4,7 +4,7 @@
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 		<title>firstTab</title>
 	</head>
-	<body OnLoad="document.form.destination.focus();">
+	<!-- <body OnLoad="document.form.destination.focus();"> -->
 		<script src="newTab.js"></script>
 		<table>
 			<tr>
@@ -23,7 +23,7 @@
 				<td colspan="2">
 					<div id="input_box">
 						<form name="form" onsubmit="javascript:openOrSearch();return false;">
-							<input id="where_to" class="text_box" type="text" name="destination">
+							<input id="where_to" class="text_box" type="text" name="destination" autofocus>
 						</form>
 					</div>
 				</td>
@@ -41,7 +41,7 @@
 				</td>
 			</tr>
 		</table>
-		<a href="http://www.reddit.com">
+		<a onclick="openAll()">
 			<div id="click"></div>
 		</a>
 		<div id="bookmark_container">
