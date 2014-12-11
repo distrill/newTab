@@ -1,3 +1,10 @@
+/*
+
+    author:         arthurKN (2014)
+    checkit:        http://github.com/distrill
+
+*/
+
 function openOrSearch()
 {
     var x = document.getElementById("where_to");
@@ -38,11 +45,11 @@ function openOrSearch()
             window.open( destination, "_self" );
             break;
          case 'wiki':
-            destination = 'http://en.wikipedia.org/wiki/';
+            destination = 'http://en.wikipedia.org/w/index.php?search=';
             for( var i = 1; i < words.length; i++ )
             {
                 destination += words[ i ];
-                destination += "_";
+                destination += "+";
             }
             window.open( destination, "_self" );
             break;

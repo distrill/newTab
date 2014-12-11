@@ -1,3 +1,11 @@
+/*
+
+    author:         arthurKN (2014)
+    checkit:        http://github.com/distrill
+
+*/
+
+
 * {
     font-family: Arial;
     text-align: center;
@@ -70,7 +78,6 @@ a {
     background-repeat: repeat;
     width: 300px;
     height: 100px;
-    /*background-color: #aaaaaa;*/
     border: 2px solid rgba(255, 0, 0, 0);;
 }
 
@@ -133,10 +140,6 @@ a {
 }
 
 
-
-
-
-
 /******************************************************************************
             bookmarks table or whatever it is know'm sayinn'??
 *******************************************************************************/
@@ -171,6 +174,9 @@ a {
 
 #bookmark_container
 {
+    /*                                          muh gallery                                              */
+    /*background-image: url( "http://i.imgur.com/Q4Axbzu.png" );          /*                    whiteDots*/
+    /*background-image: url( "http://i.imgur.com/JxWu8vp.png" );          /*                    triangles*/
     background-image: url( "http://i.imgur.com/9YrJ18c.png" );            /*                 whitePattern*/
     margin: auto;
     background-color: #000000;
