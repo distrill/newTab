@@ -3,10 +3,10 @@ newTab
 simple new tab page and i think it looks clean. muh ricing.
 
 please note; in order to detect urls, the search bar only looks for a '.' as the third- or fourth-from-end character.
-  \tmost domains will be fine (anything.com, anythingelse.co, etc)
-  \tif there is more to the url after that, put the letter 'l' before the search
-   \t\t i.e. "github.com/distrill/newTab" will point you toward a google search for that term.
-    \t\thowever, "l github.com/distrill/newTab" will force it as a url.
+  most domains will be fine (anything.com, anythingelse.co, etc)
+  if there is more to the url after that, put the letter 'l' before the search
+    i.e. "github.com/distrill/newTab" will point you toward a google search for that term.
+    however, "l github.com/distrill/newTab" will force it as a url.
 
 also, because of this, if you try to search for something that ends with '.' followed by two or three characters, it will try to force into a url
   to get around this, place an 's' before the querry to force as a search
