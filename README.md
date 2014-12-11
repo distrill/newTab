@@ -2,11 +2,11 @@ newTab
 ======
 simple new tab page and i think it looks clean. muh ricing.
 
-please note; in order to detect urls, the search bar only looks for a '.' as the third- or fourth-from-end character.
-  &nbsp;&nbsp;&nbsp;most domains will be fine (anything.com, anythingelse.co, etc)
-  &nbsp;&nbsp;&nbsp;if there is more to the url after that, put the letter 'l' before the search
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  i.e. "github.com/distrill/newTab" will point you toward a google search for that term.
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  however, "l github.com/distrill/newTab" will force it as a url.
+please note; in order to detect urls, the search bar only looks for a '.' as the third- or fourth-from-end character.<br>
+  &nbsp;&nbsp;&nbsp;most domains will be fine (anything.com, anythingelse.co, etc)<br>
+  &nbsp;&nbsp;&nbsp;if there is more to the url after that, put the letter 'l' before the search<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  i.e. "github.com/distrill/newTab" will point you toward a google search for that term.<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  however, "l github.com/distrill/newTab" will force it as a url.<br>
 
 also, because of this, if you try to search for something that ends with '.' followed by two or three characters, it will try to force into a url
   &nbsp;&nbsp;&nbsp;to get around this, place an 's' before the querry to force as a search
