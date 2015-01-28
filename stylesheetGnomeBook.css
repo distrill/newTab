@@ -1,0 +1,186 @@
+/*
+
+    author:         arthurKN (2014)
+    checkit:        http://github.com/distrill
+
+*/
+
+
+* {
+    font-family: Arial;
+    text-align: center;
+    font-size: 22px;
+    /*background-color: #ffffff;*/                                      /*                 for debug*/
+    /*border: 2px dotted black;*/
+}
+
+body {
+    /*                                     muh backgrounds gallery                                   */
+    /*background-image: url("http://i.imgur.com/vfdYMho.png");          /*                 grayFabric*/
+    /*background-image: url("http://i.imgur.com/cVblbag.png");          /*                escherEsque*/
+    /*background-image: url("http://i.imgur.com/zzgwf72.png");          /*               darkerFabric*/
+    /*background-image: url("http://i.imgur.com/IaHqxG5.png");          /*            trianglePattern*/
+    /*background-image: url("http://i.imgur.com/nObEHPX.png");          /*                   darkWood*/
+    /*background-image: url("http://i.imgur.com/XSR14fG.png");          /*              lighterFabric*/
+    background-image: url("http://i.imgur.com/mXIHXSj.png");            /*           imaginationThing*/
+    background-repeat: repeat;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    background:none;
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.text_box {
+    height: 20px;
+    width: 650px;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    background-color: #888888;
+    border: 2px solid #eeeeee;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.text_box:focus {
+    font-family: monospace;
+    color: #ffffff;
+    height: 20px;
+    width: 650px;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: 0px;
+    background-color: #000000;
+    border: 2px solid #eeeeee;
+}
+
+.button {
+    /*                                          muh gallery                                              */
+    /*background-image: url( "http://i.imgur.com/Q4Axbzu.png" );          /*                    whiteDots*/
+    /*background-image: url( "http://i.imgur.com/JxWu8vp.png" );          /*                    triangles*/
+    background-image: url( "http://i.imgur.com/9YrJ18c.png" );            /*                 whitePattern*/
+    background-repeat: repeat;
+    width: 300px;
+    height: 100px;
+    border: 2px solid rgba(255, 0, 0, 0);;
+}
+
+.button:hover .text {
+    font-size: 14px;
+    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: .8;
+}
+
+.tops {
+    margin-bottom: 17px;
+    margin-top: 350px;
+}
+
+.bottoms {
+    margin-top: 2px;
+}
+
+.left {
+    margin-right: 30px;
+}
+
+.right {
+    margin-left: 30px;
+}
+
+.text {
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 100;
+    color: #ffffff;
+    background-color: #222222;
+    opacity: .5;
+    margin-top: 15px;
+    margin-left: -2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-top: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    width: 304px;
+}
+
+#click {
+    position: relative;
+    height: 30px;
+    width: 125px;
+    margin: auto;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    background-color: #222222;
+    border: 3px solid #dddddd;
+    z-index: 1;
+}
+
+#input_box {
+    margin-top: -15px;
+    margin-bottom: 5px;
+}
+
+
+/******************************************************************************
+            bookmarks table or whatever it is know'm sayinn'??
+*******************************************************************************/
+
+.books {
+
+    width: 200px;
+    height: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+}
+
+.books:hover {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: -4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: .8;
+}
+
+.bookmark_cell {
+    width: 200px;
+    height: 20px;
+}
+
+#bookmarks {
+    margin-top: 450px;
+    margin-bottom: 450px;
+}
+
+#bookmark_container
+{
+    /*                                          muh gallery                                              */
+    /*background-image: url( "http://i.imgur.com/Q4Axbzu.png" );          /*                    whiteDots*/
+    /*background-image: url( "http://i.imgur.com/JxWu8vp.png" );          /*                    triangles*/
+    background-image: url( "http://i.imgur.com/9YrJ18c.png" );            /*                 whitePattern*/
+    margin: auto;
+    background-color: #000000;
+    width: 725px;
+    height: 250px;
+    margin-bottom: 350px;
+}

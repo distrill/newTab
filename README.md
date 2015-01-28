@@ -1,6 +1,6 @@
 newTab
 ======
-simple new tab page and i think it looks clean. muh ricing.
+simple new tab page and i think it looks clean.
 
 please note; in order to detect urls, the search bar only looks for a '.' as the third- or fourth-from-end character.<br>
   &nbsp;&nbsp;&nbsp;.most domains will be fine (anything.com, anythingelse.co, etc)<br>
