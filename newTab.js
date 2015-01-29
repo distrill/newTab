@@ -26,6 +26,11 @@ function openOrSearch()
             }
             window.open( destination, "_self" );
             break;
+        case 'f':
+            // destination = words[ 1 ];
+            prompt( words[ 1 ]); 
+            window.open( words[ 1 ], "_self" );
+            break;
         case 'youtube':
             destination = 'https://www.youtube.com/results?search_query=';
             for( var i = 1; i < words.length; i++ )
